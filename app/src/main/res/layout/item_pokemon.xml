@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pokemon_card_background"
+    android:elevation="8dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Imagen del Pokémon -->
+    <ImageView
+        android:id="@+id/imagePokemon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Nombre del Pokémon -->
+    <TextView
+        android:id="@+id/pokeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Número del Pokémon -->
+    <TextView
+        android:id="@+id/pokeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nº"
+        android:textSize="14sp" />
+
+    <!-- Tipo del Pokémon -->
+    <TextView
+        android:id="@+id/pokeType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="14sp" />
+
+    <!-- Botón para reproducir el sonido -->
+    <ImageButton
+        android:id="@+id/btnPlaySound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="Reproducir sonido"
+        android:src="@android:drawable/ic_media_play" />
+</LinearLayout>

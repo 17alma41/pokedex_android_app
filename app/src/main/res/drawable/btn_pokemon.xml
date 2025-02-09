@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- Color de fondo del botón -->
+            <solid android:color="#FFCC00"/> <!-- Amarillo Pokémon -->
+            <!-- Bordes redondeados -->
+            <corners android:radius="16dp"/>
+            <!-- Sombra simulada -->
+            <padding android:bottom="4dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCC00" /> <!-- Amarillo Pokémon -->
+            <corners android:radius="16dp" />
+            <stroke android:width="3dp" android:color="#000000" />
+            <shadowColor android:color="#888888" />
+        </shape>
+    </item>
+</selector>
