@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -30,6 +31,7 @@
         android:elevation="8dp"
         android:hint="Ingrese nombre del Pokémon"
         android:padding="10dp"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <Button
@@ -55,11 +57,11 @@
         android:id="@+id/gridViewPokemons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="2"
-        android:verticalSpacing="8dp"
+        android:gravity="center"
         android:horizontalSpacing="8dp"
+        android:numColumns="2"
         android:stretchMode="columnWidth"
-        android:gravity="center"/>
+        android:verticalSpacing="8dp" />
 
 
 </LinearLayout>

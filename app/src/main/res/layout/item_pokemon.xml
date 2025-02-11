@@ -22,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre"
+        android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -31,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nº"
+        android:textColor="@color/black"
         android:textSize="14sp" />
 
     <!-- Tipo del Pokémon -->
@@ -39,6 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tipo"
+        android:textColor="@color/black"
         android:textSize="14sp" />
 
     <!-- Botón para reproducir el sonido -->

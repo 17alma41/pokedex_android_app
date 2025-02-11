@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
      * Obtiene la lista de Pokémon desde la API y la agrega al GridView.
      */
     private void getPokemonList() {
-        String url = "https://pokeapi.co/api/v2/pokemon?limit=1000";
+        String url = "https://pokeapi.co/api/v2/pokemon?limit=1025";
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
